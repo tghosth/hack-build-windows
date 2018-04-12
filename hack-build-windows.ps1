@@ -17,7 +17,7 @@ Disable-BingSearch
 Install-WindowsUpdate
 
 Disable-GameBarTips
-Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -DisableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
+Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -DisableShowAppsViewOnStartScreen -DisableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 Set-CornerNavigationOptions -DisableUpperRightCornerShowCharms -DisableUpperLeftCornerSwitchApps -DisableUsePowerShellOnWinX
 
 $cache = "$env:userprofile\AppData\Local\ChocoCache"
