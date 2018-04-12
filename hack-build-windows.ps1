@@ -11,7 +11,7 @@ $Boxstarter.NoPassword=$true # Is this a machine with no login password?
 
 # Basic setup
 Update-ExecutionPolicy Unrestricted
-Set-WindowsExplorerOptions -EnableShowFileExtensions -EnableShowHiddenFilesFoldersDrives
+Set-WindowsExplorerOptions -EnableShowFileExtensions -DisableShowProtectedOSFiles -EnableShowHiddenFilesFoldersDrives
 Set-TaskbarOptions -Size Small -Lock -Combine Never
 Disable-BingSearch
 Install-WindowsUpdate
