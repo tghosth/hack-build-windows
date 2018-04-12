@@ -33,6 +33,7 @@ Install-ChocolateyShortcut -shortcutFilePath $desktopShortcut -targetPath $start
 # Packages requiring reboot
 cinst powershell                    --cacheLocation $cache
 cinst dotnet4.6.2                   --cacheLocation $cache
+cinst dotnet4.7.2                   --cacheLocation $cache
 
 cinst jre8 --cacheLocation $cache
 cinst zap --cacheLocation $cache
