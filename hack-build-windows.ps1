@@ -29,6 +29,7 @@ cinst dotnet4.7.1                   --cacheLocation $cache
 
 
 cinst zap --cacheLocation $cache
+cinst burp --cacheLocation $cache
 cinst nmap --cacheLocation $cache
 cinst winscp --cacheLocation $cache
 cinst putty --cacheLocation $cache
