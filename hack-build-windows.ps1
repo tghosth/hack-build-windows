@@ -14,7 +14,7 @@ Update-ExecutionPolicy Unrestricted
 Set-WindowsExplorerOptions -EnableShowFileExtensions -DisableShowProtectedOSFiles -EnableShowHiddenFilesFoldersDrives
 Set-TaskbarOptions -Size Small -Lock -Combine Never
 Disable-BingSearch
-Install-WindowsUpdate
+
 
 Disable-GameBarTips
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -DisableShowAppsViewOnStartScreen -DisableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
@@ -43,3 +43,4 @@ cinst wireshark --cacheLocation $cache
 cinst firefox --cacheLocation $cache
 cinst 7zip --cacheLocation $cache
 cinst jre8 --cacheLocation $cache
+Install-WindowsUpdate
