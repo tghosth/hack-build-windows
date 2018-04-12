@@ -45,12 +45,14 @@ cinst firefox --cacheLocation $cache
 cinst 7zip --cacheLocation $cache
 cinst jre8 --cacheLocation $cache
 cinst sysinternals --cacheLocation $cache
+cinst chocolateygui --cacheLocation $cache
 
 # Visual C++ Redistributable Packages
 cinst vcredist2008 --cacheLocation $cache
 cinst vcredist2010 --cacheLocation $cache
 cinst vcredist2012 --cacheLocation $cache
 cinst vcredist2013 --cacheLocation $cache
+
 
 # clean up the cache directory
 Remove-Item $cache -Recurse
