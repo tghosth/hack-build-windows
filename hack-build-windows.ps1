@@ -34,8 +34,18 @@ Install-ChocolateyShortcut -shortcutFilePath $desktopShortcut -targetPath $start
 cinst powershell                    --cacheLocation $cache
 cinst dotnet4.6.2                   --cacheLocation $cache
 
-
+cinst jre8 --cacheLocation $cache
 cinst zap --cacheLocation $cache
 cinst nmap --cacheLocation $cache
 cinst winscp --cacheLocation $cache
 cinst putty --cacheLocation $cache
+cinst hxd --cacheLocation $cache
+cinst googlechrome --cacheLocation $cache
+cinst notepadplusplus --cacheLocation $cache
+cinst vnc-viewer --cacheLocation $cache
+cinst vlc --cacheLocation $cache
+cinst linqpad --cacheLocation $cache
+cinst winmerge --cacheLocation $cache
+cinst wireshark --cacheLocation $cache
+cinst firefox --cacheLocation $cache
+cinst 7zip --cacheLocation $cache
